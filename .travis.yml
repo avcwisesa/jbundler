@@ -1,5 +1,6 @@
 language: java
 sudo: false
+dist: bionic
 before_script:
   - export MAVEN_SKIP_RC=true
 before_script: ./mvnw initialize
